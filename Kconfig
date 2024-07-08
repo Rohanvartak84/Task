@@ -1,0 +1,7 @@
+menu "My Modules"
+	config CUSTOM_HELLOWORLD
+		tristate "hello world support module"
+		default n
+		help
+			this is a simple character device driver example
+endmenu
