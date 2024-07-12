@@ -1,4 +1,6 @@
-obj-m += pseudo_char_driver.o
+obj-m += platform_driver_pcd.o
+obj-m += platform_device_setup.o
+
 
 PWD := $(CURDIR)
 
